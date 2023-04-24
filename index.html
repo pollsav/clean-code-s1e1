@@ -8,18 +8,18 @@
 </head>
 
 <body class="body">
-    <div class="header">
-        <img class="header-img" src="./eisenhower-matrix.jpg">
+    <header class="header">
+        <img class="header-img" src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix">
         <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="main">
-        <p id="add-item">
-            <label for="new-task-label label">Add Item</label>
-        <div class="task-row-wrapper">
-            <input id="new-task" class="task text new-task input" type="text">
-            <button class="button">Add</button>
-        </div>
-        </p>
+    </header>
+    <main class="main">
+        <section id="add-item">
+            <h3 for="section-add-title h3">Add Item</h3>
+            <div class="task-row-wrapper">
+                <input id="new-task" class="task text new-task input" type="text">
+                <button class="button">Add</button>
+            </div>
+        </section>
         <h3 class="h3">Todo</h3>
         <ul class="ul" id="incomplete-tasks">
             <li class="li">
@@ -27,14 +27,14 @@
                 <label class="task label">Pay Bills</label>
                 <input class="task text input" type="text">
                 <button class="edit button">Edit</button>
-                <button class="delete button"><img class="delete-img" src="./remove.svg"></button>
+                <button class="delete button"><img class="delete-img" src="./remove.svg" alt="Delete button"></button>
             </li>
             <li class="edit-mode li">
                 <input class="checkbox input" type="checkbox">
                 <label class="task label">Go Shopping</label>
                 <input class="task text input" type="text" value="Go Shopping">
                 <button class="edit button">Save</button>
-                <button class="delete button"><img class="delete-img" src="./remove.svg"></button>
+                <button class="delete button"><img class="delete-img" src="./remove.svg" alt="Delete button"></button>
             </li>
         </ul>
         <h3 class="h3">Completed</h3>
@@ -44,10 +44,10 @@
                 <label class="task label">See the Doctor</label>
                 <input class="task text input" type="text">
                 <button class="edit button">Edit</button>
-                <button class="delete button"><img class="delete-img" src="./remove.svg"></button>
+                <button class="delete button"><img class="delete-img" src="./remove.svg" alt="Delete button"></button>
             </li>
         </ul>
-    </div>
+    </main>
     <script src="app.js"></script>
 </body>
 

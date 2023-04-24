@@ -72,8 +72,7 @@
 }
 
 /* Heading */
-.h3,
-.new-task-label {
+.h3 {
   margin: 0;
   padding: 30px 0 10px;
   font-weight: 700;
@@ -101,7 +100,7 @@
 }
 
 /* New Task */
-.new-task-label {
+.section-add-title {
   display: block;
   margin: 0 0 20px;
 }
